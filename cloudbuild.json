@@ -4,18 +4,18 @@
             "name": "node:14",
             "entrypoint": "npm",
             "args": ["install"],
-            "dir": "client"
+            "dir": "Client"
         },
         {
             "name": "node:14",
             "entrypoint": "npm",
             "args": ["run", "build"],
-            "dir": "client"
+            "dir": "Client"
         },
         {
             "name": "gcr.io/cloud-builders/gcloud",
             "args": ["app", "deploy"],
-            "dir": "client"
+            "dir": "Client"
         }
     ]
 }
